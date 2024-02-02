@@ -1,4 +1,3 @@
 #include <conts.h>
 
-
-typedef int[PACKET_SIZE] Packet;
+typedef int Packet[PACKET_SIZE];

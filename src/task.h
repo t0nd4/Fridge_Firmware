@@ -2,7 +2,12 @@
 
 class Task
 {
-    public:
-      bool execute(Packet packet, int index);  
+  public:
+    Task();
+    Task(bool (*task)(Packet, int));
+    bool execute(Packet packet, int index);
+
+  private:
+    bool (*m_task)(Packet, int);
 
 };

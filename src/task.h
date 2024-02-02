@@ -1,3 +1,5 @@
+#include <packet.h>
+
 class Task
 {
     public:
